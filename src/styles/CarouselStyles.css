@@ -1,0 +1,25 @@
+.carousel .control-arrow {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+  }
+  
+  .carousel .control-arrow:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  .carousel .control-next.control-arrow:before {
+    border-left: 8px solid rgb(185, 13, 113);
+  }
+  
+  .carousel .control-prev.control-arrow:before {
+    border-right: 8px solid rgb(185, 13, 113);
+  }
+  
+  .carousel .control-dots .dot {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
